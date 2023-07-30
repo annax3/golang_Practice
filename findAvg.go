@@ -34,8 +34,12 @@ func main() {
 	}
 
 	if n == 0 {
-		fmt.Println(os.Stderr, "no values")
+		fmt.Fprintln(os.Stderr, "no values")
 		os.Exit(-1)
 	}
 	fmt.Println("The average is ", sum/float64(n))
+
+	//why we need os package ?
+	//   because i need to deal with stdIn and stdError i want to read stdIn
+	//   fmt.Fscanln() scan the line of text
 }
