@@ -1,0 +1,56 @@
+notes for postgres
+===================
+
+To see your databases in PostgreSQL running inside a Docker container on Ubuntu, you can use the following steps:
+-----------------------------------------------------------------------------------------------------------------
+
+1). docker ps : This will display a list of running containers along with their details.
+
+CONTAINER ID   IMAGE                COMMAND                  CREATED        STATUS        PORTS                                       NAMES
+
+77ef4fe44300   postgres:alpine      "docker-entrypoint.s…"   20 hours ago   Up 20 hours   0.0.0.0:5432->5432/tcp, :::5432->5432/tcp   awesomeproject-db-1
+
+1df13b12c2a4   awesomeproject-web   "air cmd/main.go -b …"   20 hours ago   Up 20 hours   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp   awesomeproject-web-1
+
+
+=============================================================================================================================================================
+
+Find the container ID or name of your PostgreSQL container:
+-------------------------------------------------------------
+
+2) docker exec -it CONTAINER_NAME_OR_ID bash
+
+   Example : docker exec -it 77ef4fe44300 bash
+             
+             => 77ef4fe44300:/# 
+
+
+=============================================================================================================================================================
+                                                       This Box is not working
+                                                       -----------------------
+3). Connect to PostgreSQL:
+
+Once you are inside the container, you can connect to PostgreSQL using the psql command-line utility. Simply type:                 
+
+       psql -U <POSTGRES_USERNAME>
+
+
+=============================================================================================================================================================
+Note : 
+
+I apologize for the oversight in my previous responses. It appears that the docker command is not available inside the PostgreSQL container, which is expected since the Docker client is not installed inside the container.
+
+To access the PostgreSQL database from your host machine, you need to use the psql command directly on your terminal, not inside the container.
+
+3). Connect to the PostgreSQL database using the psql command: 
+     psql -h localhost -p 5432 -U root -d rhinoDb
+     
+ 
+4). After entering the password for the root user, you will be connected to the rhinoDb database, and you will see the rhinoDb=# prompt.
+
+5). To see the list of tables in the rhinoDb database, type the following command:
+
+    
+
+6). \dt : List of relations
+
