@@ -1,0 +1,2 @@
+// go env GOPATH
+   go env is go tool which shows environment variables and configuration which Go tools use
