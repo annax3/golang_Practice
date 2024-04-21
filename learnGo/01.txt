@@ -1,2 +1,10 @@
 // go env GOPATH
    go env is go tool which shows environment variables and configuration which Go tools use
+
+
+//PACKAGE
+  all package files should be in the same directory
+
+//package main
+    //package x
+    //package y
