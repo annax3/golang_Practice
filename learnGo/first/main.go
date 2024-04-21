@@ -8,7 +8,9 @@ package main
 //import "fmt" lets you access fmt package's functionality
 //here in this file.
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // "func main" is special.
 //
@@ -43,5 +45,8 @@ func main() {
 	// And also in source-code: STEINBECK!
 	//
 	// Because: Literal ~= Source Code
+
+	bye()
+	hey()
 
 }
