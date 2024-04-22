@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb8b1e25-70d3-42be-8fb7-ff7d871f6855" name="Changes" comment="" />
+    <list default="true" id="eb8b1e25-70d3-42be-8fb7-ff7d871f6855" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices_go/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices_go/01/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +51,31 @@
     "node.js.selected.package.eslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build golang_Practice/Microservices_go">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\GolandProjects\golang_Practice\Microservices_go\02" />
+      <recent name="C:\Users\HP\GolandProjects\golang_Practice\Microservices_go\01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build MicroServicesInGo/01">
+    <configuration name="go build MicroServicesInGo/01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang_Practice" />
+      <working_directory value="$PROJECT_DIR$/Microservices_go" />
+      <kind value="PACKAGE" />
+      <package value="MicroServicesInGo/01" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Microservices_go/01/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build MicroServicesInGo/03" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang_Practice" />
+      <working_directory value="$PROJECT_DIR$/Microservices_go" />
+      <kind value="PACKAGE" />
+      <package value="MicroServicesInGo/03" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Microservices_go/03/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build golang_Practice/Microservices_go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang_Practice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -69,6 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build MicroServicesInGo/01" />
+        <item itemvalue="Go Build.go build MicroServicesInGo/03" />
         <item itemvalue="Go Build.go build golang_Practice/Microservices_go" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
